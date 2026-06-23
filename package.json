@@ -1,0 +1,18 @@
+{
+  "name": "newrelic-example",
+  "version": "1.0.0",
+  "description": "Node.js example with New Relic tracing for nested function calls",
+  "main": "index.js",
+  "scripts": {
+    "start": "node api.js && node index.js",
+    "dev": "node api.js && node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "newrelic": "^12.9.0"
+  }
+}
